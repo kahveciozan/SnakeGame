@@ -56,7 +56,7 @@ public class GameScreen extends ScreenAdapter {
     private static final String GAME_OVER_TEXT = "GAME OVER.. Tap Space to RESTART";
 
     private int score = 0;
-    private static final  int POINTS_PER_APPLE = 20;
+    private static final  int POINTS_PER_APPLE = 100;
     String scoreAsString;
 
     private static final float WORLD_WIDTH = 640;
