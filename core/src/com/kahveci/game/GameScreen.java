@@ -73,7 +73,7 @@ public class GameScreen extends ScreenAdapter {
         bitmapFont = new BitmapFont();
 
 
-        /*  -   -      - - - - - -BURDA KALDI -------------------------------------------------*/
+        /*  ---------------- BURDA KALDI -------------------------------------------------*/
         camera = new OrthographicCamera(Gdx.graphics.getWidth(),Gdx.graphics.getHeight());      //2ye boollllllllll---------------
         camera.position.set(WORLD_WIDTH,WORLD_HEIGHT,0);
         viewport = new FitViewport(WORLD_WIDTH,WORLD_HEIGHT,camera);
