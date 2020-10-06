@@ -56,7 +56,7 @@ public class GameScreen extends ScreenAdapter {
     private static final String GAME_OVER_TEXT = "GAME OVER.. Tap Space to RESTART";
 
     private int score = 0;
-    private static final  int POINTS_PER_APPLE = 10;
+    private static final  int POINTS_PER_APPLE = 75;
     String scoreAsString;
 
     private static final float WORLD_WIDTH = 640;
@@ -178,7 +178,7 @@ public class GameScreen extends ScreenAdapter {
     }
 
     private void clearScreen(){
-        Gdx.gl.glClearColor(1, 0, 1, 1);
+        Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
     }
 
